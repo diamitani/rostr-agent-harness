@@ -1,0 +1,39 @@
+{
+  "name": "rostr-agent-harness",
+  "version": "1.0.0",
+  "description": "Universal Autonomous Agent Harness: One Must Act Foundation Wholeness, Middle-Out Action Compression, Diagrid Durable Workflows, Calibrated Truth Gating, and the POP (Project Output Planner) 11-Artifact Engine.",
+  "main": "src/core/agent-harness.ts",
+  "types": "src/core/agent-harness.ts",
+  "scripts": {
+    "dev": "tsx src/server/index.ts",
+    "cli": "tsx src/cli/index.ts",
+    "pop": "tsx src/cli/index.ts pop",
+    "create:skill": "tsx src/cli/index.ts create-skill",
+    "test": "tsx --test tests/harness.test.ts"
+  },
+  "keywords": [
+    "ai-agent",
+    "agent-harness",
+    "vercel-ai-sdk",
+    "diagrid",
+    "dapr",
+    "middle-out-compression",
+    "one-must-act",
+    "pop-engine",
+    "calibrated-truth-guard"
+  ],
+  "author": "Patrick Diamitani, Diamitani Industries, Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.1.0",
+    "@ai-sdk/openai": "^1.1.0",
+    "ai": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
