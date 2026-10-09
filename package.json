@@ -9,6 +9,8 @@
     "cli": "tsx src/cli/index.ts",
     "pop": "tsx src/cli/index.ts pop",
     "create:skill": "tsx src/cli/index.ts create-skill",
+    "qa:backend": "tsx src/cli/qa-agent.ts",
+    "qa": "tsx src/cli/qa-agent.ts",
     "test": "tsx --test tests/harness.test.ts"
   },
   "keywords": [
